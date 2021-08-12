@@ -1,0 +1,397 @@
+body {
+    margin: 0px!important;
+    padding: 0px;
+    font-family: 'Chivo', sans-serif;
+    background: #A80154;
+    color: #363636;
+}
+*{
+    margin: 0%;
+}
+#home{
+    margin: 0px auto;    
+    background: #FFFFFF url('https://infosif.in/lifeManaged/lifemanaged1/images/bg01.png') repeat;
+}
+.container{
+    /*width: 1200px;*/
+    margin: 0px auto;
+}
+.header h1 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    font-size: 3em;
+}
+#title p{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    line-height: 190%;
+    color: #FFF;
+}
+#title a {
+    text-decoration: none;
+    color: #FFF;
+}
+#title {
+    width: 500px;
+    /* height: 100px; */
+    margin: 0 auto;
+    padding: 2em 0em;
+    text-transform: uppercase;
+}
+#home-header {
+    overflow: hidden;
+    background-size: 100%;
+    padding: 6em 0em 2em 0em;
+    background: #333333;
+    width: auto;
+}
+#title {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 2em 0em;
+    text-transform: uppercase;
+}
+
+/*Navigation*/
+
+#home-nav{
+    background-color: #B10058;
+    width: auto;
+}
+.navbar ul {
+    margin-left:196px;
+	display: flex;
+	flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+.navbar ul a {
+	font-size: 0.80em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: white;
+    line-height: 100px;
+	text-transform: uppercase;
+	padding: 0px 40px;
+	display: block;
+}
+.navbar .current_page_item a {
+    background: #C0005F;
+}
+
+/*Picture*/
+
+#picture{
+    background: url('https://infosif.in/lifeManaged/lifemanaged1/images/pic01.jpg');
+    overflow: hidden;
+    width: auto;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-content {
+    /* position: relative; */
+    display: block;
+    width: 85%;
+    height: 25em;
+    padding: 6em 0em 5em 0em;
+}
+#content {
+    float: right;
+    width: 796px;
+      /*width: 790px;*/
+}
+#content p{
+    line-height: 190%;
+    font-family: 'Chivo', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: justify;
+    
+}
+.title1 {
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+.title1 h2{
+    font-weight: 400;
+    font-size: 2em;
+    color: #B10058;
+}
+.title1 p{
+    margin-top: 0px;
+}
+#sidebar{
+    /*display: inline-block;
+    font-family: 'Chivo', sans-serif;*/
+    display: inline-block;
+    font-family: 'Chivo', sans-serif;
+    
+
+}
+
+.style2 li {
+    border-top: solid 1px #E5E5E5;
+    padding: 0.80em 0;
+    list-style: none;
+}
+.style2 li:first-child {
+    margin-top: 35px;
+    border-top: 0;
+    padding-top: 0;
+}
+.style2 li a{
+    text-decoration: none;
+    
+}
+ul ol {
+    padding-left:0px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background: rgba(0,0,0,.04);
+    padding: 6em 0em;
+    color: rgba(255,255,255,.7);
+}
+
+#portfolio .contact3 {
+	flex-direction: row;
+  display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+}/*
+#portfolio img{
+    height: 250px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}*/
+
+#portfolio .abc {
+    flex: 0 0 auto; /* media query */
+    width: 25%;
+    margin-right: 10px;
+}
+.title3 {
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+#portfolio .title3 h2 {
+    font-size: 1.2em;
+    color: #FFF;
+    font-weight: 400;
+}
+/*
+#portfolio .card {
+    position: relative;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}*/
+
+#portfolio p {
+    line-height: 190%;
+    font-size: 1.09rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 1.50em 3em 1.50em 2em;
+    background: #BB005D;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #FFF;
+}
+#portfolio .btn:hover {
+    
+    cursor: pointer;
+}
+#footer{
+    
+    background: #1E1B1A;
+    color: #E5E5E5;
+    margin-top: 58px;
+}
+
+#footer .container1 {
+    width: auto;
+    margin: 0px auto;
+    flex-direction: row;
+    display: flex;
+    background: #1E1B1A;
+}
+#box1{
+    width: 37%;
+    margin-top: 75px;
+    margin: 75px 42px;
+}
+#box2 {
+    margin: 0px 30px;
+    margin-top: 75px;
+    width: 37%;
+}
+#box3{
+    position: relative;
+    margin-top: 75px;
+    left: 0px;
+    width: 37%;
+    text-align: center;
+
+}
+#box3 p{
+    display: inline-block;
+    width: 50%;
+    margin-top: 42px;
+}
+
+.style1 li {
+    border-top: solid 1px #E5E5E5;
+    padding: 0.80em 0;
+}
+.style1 li:first-child {
+    margin-top: 35px;
+    border-top: 0;
+    padding-top: 0;
+}
+.style1 li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.socials {
+    margin: 0;
+    padding: 1.5em 0em 1.5em 0em;
+}
+.socials a{
+    margin: 5px;
+    text-decoration: none;
+}
+.title h2 {
+    text-align: center;
+}
+
+#copyright {
+    overflow: hidden;
+    padding: 5em 0em;
+    text-align: center;
+}
+#copyright p {
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: rgba(255,255,255,.5);
+}
+#copyright a {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+}
+
+
+
+
+
+@media only screen and (max-width:700px) {
+
+    .navbar ul {
+        /* margin-left: 196px; */
+        display: initial;
+        /* font-size: 1%; */
+        /* flex-direction: row; */
+        /* list-style: none; */
+        text-align: center;
+    }
+    #home-header{
+        width: auto;
+    }
+    #home-nav{
+        width: auto;
+    }
+
+    .container {
+        display: inline;
+        margin: 0px auto;
+    }
+    #picture{
+        width: auto;
+    }
+    #main-content {
+        padding: 6em 0em 5em 0em;
+        width: auto;
+        height: 0%;
+    }
+    #content {
+        width: 75%;
+        margin: auto;
+        float: none;
+    }
+    #content p {
+        line-height: 190%;
+        font-family: 'Chivo', sans-serif;
+        font-size: 12pt;
+        font-weight: 300;
+        width: auto;
+        display: inline-block;
+        text-align: justify;
+    }
+    #sidebar {
+        width: 75%;
+        margin: auto;
+        display: block;
+        margin-top: 10%;
+    }
+    #sidebar .box2{
+        display: inline-block;
+        width: auto;
+    }
+    #portfolio .abc {
+        flex: 0 0 auto;
+        width: auto;
+        margin: 17px;
+        display: block;
+    }
+
+    #portfolio .contact3 {
+        flex-direction: column;
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+    }
+    #footer .container1 {
+        width: auto;
+        margin: 0px auto;
+        flex-direction: column;
+        display: flex;
+    }
+    #box1 {
+        width: 76%;
+        margin: 75px 42px;
+    }
+    #box2 {
+        margin: 0px 30px;
+        margin-top: 75px;
+        width: 76%;
+    }
+    #box3 {
+        width: auto;
+        text-align: center;
+    }
+    .title h2 {
+       text-align: center;
+    }
+}
