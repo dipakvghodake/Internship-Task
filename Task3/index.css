@@ -1,0 +1,365 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+#box1{
+    margin-top: 3rem;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif!important;
+    color: #242f51;
+}
+.logo{
+    margin-top: 0.6rem;
+}
+.nav-list{
+    margin: auto;
+}
+.nav-bar .list{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 23%;
+}
+.items {
+    color: rgba(0,0,0,.5);
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+.btn{
+    padding: 10px 34px;
+    border-radius: 25px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    border-color: blue;
+    position: relative;
+    bottom: 23%;
+}
+
+/*--------------Home------------*/
+#home{
+    background: url(https://infosif.in/lifeManaged/lifemanaged3/img/Bannerbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-top: 3rem;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.left-box{
+    display: flex;
+    align-items: center;
+}
+.left-box h1{
+    font-size: 66px;
+    color: #242f51;
+    margin: 0%;
+}
+.left-box p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #242f51;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.right-box img{
+    width: 100%;
+    padding: 10px;
+}
+.link{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 0.5rem;
+}
+
+
+.left-box1{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-box1 .pulse{
+    width: 75%;
+    animation: pulse 1.5s ease-out infinite;
+}
+.right-box1{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.right-box1 img{
+    padding: 12px;
+}
+.box-a p{
+    margin: 0%;
+    font-size: 1.2rem;
+}
+.box-a h2{
+    margin: 0%;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
+.logo1{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+h3{
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: 0%;
+}
+.content p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    width: 60%;
+    margin-top: 0%;
+    color: #242f51;
+    line-height: 1.3rem;
+}
+.mt{
+    margin-top: 1rem
+}
+
+.pt{
+    padding-top: 3rem;
+}
+.left-box2{
+    border-right: 1px solid #dee2e6;
+    padding-right: 16px;
+}
+.left-box2 p{
+    margin: 0%;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-weight: bold;
+}
+.right-box2{
+    color: #6c757d;
+    align-items: center;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.19rem;
+}
+.right-box2 p{
+    margin: 0%;
+}
+
+.card p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
+.card{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-box3{
+    width: 71%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-box3 p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card h2{
+    font-size: 2rem;
+    margin: 0%;
+    width: 57%;
+}
+.heading{
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 0.5rem;
+    color: #242f51;
+}
+.a-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.a-text p{
+    text-align: center;
+}
+.t-center{
+    text-align: center;
+}
+.b-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.b-text p{
+    text-align: center;
+    font-size: 1.01rem;
+    width: 72%;
+}
+
+.c-text{
+    margin-left: 38%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+.j-content{
+    justify-content: center;
+}
+.card1{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 6%;
+}
+.card2 {
+    box-shadow: 4px 4px 7px lightgrey;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 18rem;
+}
+.card-body{
+    text-align: center;
+    background: #f4f7f9;
+    padding: 1.5rem;
+}
+ul{
+    margin: 0px 40px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.list-item{
+    padding: .75rem 1.25rem;
+    color: #a8aab2;
+}
+.price{
+    color: #242f51;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.sub-heading{
+    font-size: 1.25rem;
+    color: #242f51;
+    margin: 0%;
+}
+.ctext{
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.left-box4{
+    background:url(https://infosif.in/lifeManaged/lifemanaged3/img/map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-box4 .up-down{
+    width: 33rem;
+    position: relative;
+    animation: up-down 1s ease infinite;
+}
+.right-box4{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.right-box4 h2,h4{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2rem;
+    margin-top: 0%;
+}
+.right-box4 h4{
+    font-size: 1.5rem;
+}
+.right-box4 p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    color: #6c757d;
+    margin-top: 0;
+}
+.clr{
+    color: #ffc107
+}
+
+.footer{
+    background-color: #03192b;
+    padding-bottom: 3rem;
+}
+.logo2{
+    padding-top: 1rem;
+    margin: auto;
+}
+.options{
+    justify-content: center;
+}
+.options a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.socials{
+    margin: auto;
+}
+.social-icons i{
+    color: antiquewhite;
+    padding: 10px 15px;
+    background-color: #4b5f6e91;
+
+}
+
+
+
+@keyframes pulse{
+   
+        0% {
+        transform: scale(0.80, 0.80);
+        }
+        50% {
+        transform: scale(1, 1);
+        }
+        100% {
+        transform: scale(0.80, 0.80);
+        }
+        
+}
+@keyframes up-down {
+    0%{
+        top: 0rem;
+    }
+    50%{
+        top:0.5rem;
+    }
+    100%{
+        top:0rem;
+    }
+    
+}
