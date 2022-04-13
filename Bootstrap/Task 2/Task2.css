@@ -1,0 +1,80 @@
+.wapper-content h1 {
+    font-size: 45px;
+    line-height: 47px;
+}
+.demo{
+    position: relative;
+}
+
+.content-box {
+    position: absolute;
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.demo:hover .content-box {
+    display: block;
+    cursor: pointer;
+    background:#00000087;
+}
+.content-box p {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 0px 55px;
+    text-align: center;
+    font-family: 'Gotham';
+    position: relative;
+    top: 23%;
+    font-weight: 300;
+}
+.btn0 {
+    margin: 15px 0px 10px;
+    width:100%;
+    position: relative;
+    top: 26%;
+    cursor: pointer;
+    text-align: center;
+}
+.click-botton {
+    width: 380px;
+    height: 63px;
+    font-size: 21px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #ff8000;
+    border: none;
+    color: white;
+}
+.logo-info p {
+    font-size: 25px;
+    font-family: "Gotham";
+    font-weight: bold;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.shedule-call {
+    width: 320px;
+    height: 77px;
+    border-radius: 3px;
+    background-color: #ff8003;
+    border: none;
+    font-size: 28px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Gotham';
+    font-weight: bold;
+}
+.bg-3 {
+    width: 100%;
+    background-image: url(https://infosif.in/lifeManaged/lifemanaged/images/footer-bg.png);
+}
+.hov:hover {
+    border-radius: 10px;
+    background-color: rgba(255,127,3,0.12156862745098039);
+    border: 1px solid white;
+    padding: 20px 0px;
+}
