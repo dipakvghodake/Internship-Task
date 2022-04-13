@@ -1,0 +1,487 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.container1{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+}
+.ml{
+    margin-left: 20rem;
+}
+.mr{
+    margin-right: 20rem;
+}
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid black;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.sub-items{
+    padding: 5px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.style{
+    position: absolute;
+    z-index: 1000;
+    width: 10rem;
+    padding: 0.5rem 0rem;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    background-color: #fff;
+    display: none;
+}
+
+.nav-list li:hover  .abc{
+    display: block;
+}
+.nav-list li:hover .xyz{
+    display: block;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0%;
+}
+.items a{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.options1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.bg-image{
+    position: relative;
+}
+.bg-img img{
+    width: 100%;
+    height: 34rem;
+}
+.section-title{
+    position: absolute;
+    top: 0;
+    background: #0000003d;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.title h2{
+    font-size: 60px;
+    color: white;
+    margin: 0%;
+    margin-bottom: 0.5rem;
+}
+.d-flex{
+    display: flex;
+}
+span {
+    color: #129eb7;
+}
+.title p{
+    color: white;
+}
+p {    
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.btn{
+    
+    cursor: pointer;
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+}
+.box{
+    display: flex;
+}
+.mt-pt{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+.card{
+    text-align: center;
+}
+.pl-pr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+}
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+.left-box{
+    background-color: #ffc107;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    right: 14px;
+}
+.form-set{
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    margin: 0px 36px;
+    border-radius: .25rem;
+}
+.mt{
+    margin: 10px 0px;
+}
+.container2{
+    background: #f3e7f2c7;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-box2{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-box2 div{
+    margin-left: 73px;
+}
+.left-box2 h3,h1{
+    font-weight: bolder;
+    margin-top: 0%;
+    margin-bottom: 0.5rem;
+}
+.rt-box{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.rt-box .up{
+    position: relative;
+    animation: up 1s ease infinite;
+}
+.rt-box .down{
+    position: relative;
+    animation: down 1s ease infinite;
+}
+.rt-box, .rt-box img{
+    width: 100%;
+}
+.container3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://infosif.in/lifeManaged/lifemanaged4/img/slider-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.left-box3 {
+    margin-left: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 50%;
+}
+.footer{
+    background-image: repeating-linear-gradient(90deg , #8934a9, #129eb7);
+}
+.row-1{
+    padding-left: 1rem;
+    padding-top: 3rem;
+    margin-left: 50px;
+}
+
+
+
+/*-----------SAFETY SECTION--------*/
+.bg-img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://infosif.in/lifeManaged/lifemanaged4/img/bannersafety.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.s-title{
+    width: 50%;
+}
+.s-title h2{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0%;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.s-title2 h2{
+    font-size: 2.5rem;
+    color: white;
+    margin: 0%;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.pb{
+    padding-bottom: 3rem;
+}
+.pt{
+    padding-top:3rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.s-left-box{
+    width: 100%;
+    padding: 0px 15px;
+}
+.s-right-box{
+    padding: 0px 36px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.width{
+    width: 102%;
+}
+.pdn{
+    padding: 1.5rem;
+}
+
+/*-------------HELP SECTION--------------*/
+.bg-image2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://infosif.in/lifeManaged/lifemanaged4/img/Helpsupport.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h2{
+    font-weight: bolder; color: white;
+    padding: 0.5rem 0px;
+}
+h3,h5{
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin-top: 0%;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: white;
+}
+h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.h-left-box{
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.small-box{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1rem;
+    
+}
+.helppills{
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-image: repeating-linear-gradient(90deg, #8934a9, #129eb7);
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+}
+.h-rt-box{
+    width: 75%;
+}
+.card3{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card3-header{
+    padding: 1rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125)
+}
+.demo{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+/*------------------ABOUT US----------------*/
+.bg-img3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://infosif.in/lifeManaged/lifemanaged4/img/img3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg-img4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://infosif.in/lifeManaged/lifemanaged4/img/img12.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 253px;
+    color: white;
+}
+.icons i{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-image: linear-gradient(#8934a9, #129eb7);
+    border-radius: 50%;
+}
+.pdn h2{
+    color: #129eb7;
+    margin-top: 1rem;
+}
+.card1{
+    box-shadow: 2px 2px 2px lightgrey;
+    width: 33.33%;
+}
+.container4{
+    margin: 10px 5rem;
+}
+.card-text{
+    padding-bottom: 1.5rem;
+}
+.demo6{
+    width: 100%;
+}
+.demo6 img{
+    width: 100%;
+}
+
+
+
+@keyframes up {
+    0%{
+        top:0px;
+    }
+    50%{
+        top: 15px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+@keyframes down {
+    0%{
+        top: 15px;
+    }
+    50%{
+        top: 0px;
+    }
+    100%{
+        top: 15px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .navbar{
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .options1, .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li{
+        margin: 5px;
+    }
+    .title h2{
+        font-size: 45px;
+    }
+    .mr{
+        margin-right: 0%;
+    } 
+    .ml{
+        margin-left: 0%;
+    }
+    .box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-left-box{
+        display: flex;
+        align-items: center;
+    }
+    .col-1{
+        width: 75%;
+    }
+    .col-2{
+        text-align: center;
+        margin-top:5%;
+    }
+    form{
+        text-align: center;
+    }
+    .form-set{
+        margin:11px 36px;
+    }
+    .left-box2 div{
+        margin: 0%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .ml{
+        margin-left: 15rem;
+    }
+    .mr{
+        margin-right: 0%;
+    }
+}
